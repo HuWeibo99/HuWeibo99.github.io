@@ -6,15 +6,29 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://huweibo99.github.io">
-  <title>Archives: 2021 | 欢迎来到胡伟波的博客</title>
+  <title>pandas学习笔记 | 欢迎来到胡伟波的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="欢迎来到胡伟波的博客">
-<meta property="og:url" content="http://huweibo99.github.io/archives/2021/index.html">
+  <meta name="description" content="pandas学习笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="pandas学习笔记">
+<meta property="og:url" content="http://huweibo99.github.io/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="欢迎来到胡伟波的博客">
+<meta property="og:description" content="pandas学习笔记">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://huweibo99.github.io/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_3.png">
+<meta property="og:image" content="http://huweibo99.github.io/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_1.png">
+<meta property="og:image" content="http://huweibo99.github.io/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_2.png">
+<meta property="og:image" content="http://huweibo99.github.io/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_4.png">
+<meta property="og:image" content="http://huweibo99.github.io/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_5.png">
+<meta property="og:image" content="http://huweibo99.github.io/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_6.png">
+<meta property="og:image" content="http://huweibo99.github.io/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_7.png">
+<meta property="og:image" content="http://huweibo99.github.io/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_8.png">
+<meta property="og:image" content="http://huweibo99.github.io/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_9.png">
+<meta property="article:published_time" content="2021-09-26T06:44:24.000Z">
+<meta property="article:modified_time" content="2021-09-26T08:50:32.833Z">
 <meta property="article:author" content="HuWeibo">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://huweibo99.github.io/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_3.png">
   
     <link rel="alternative" href="/atom.xml" title="欢迎来到胡伟波的博客" type="application/atom+xml">
   
@@ -163,221 +177,306 @@
           </div>
           <div id="js-content" class="content-ll">
             
+<article id="post-pandas学习笔记" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      pandas学习笔记
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2021" class="archive-year">2021</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="archive-article-date">
+
+		<!--显示阅读次数-->
+        
+          <br/>
+          <a class="cloud-tie-join-count" href="javascript:void(0);" style="color:gray;font-size:14px;">
+          <span class="icon-sort"></span>
+          <span id="busuanzi_container_page_pv" style="color:#ef7522;font-size:14px;">
+            阅读数: <span id="busuanzi_value_page_pv"></span>次 &nbsp;&nbsp;
+          </span>
+          </a>
+        
+        <!--显示阅读次数完毕-->
+        
+        <a href="/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="archive-article-date">
   	<time datetime="2021-09-26T06:44:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-26</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">pandas学习笔记</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+	
+      
+        <h1 id="pandas学习笔记"><a href="#pandas学习笔记" class="headerlink" title="pandas学习笔记"></a>pandas学习笔记</h1><span id="more"></span>
+<h2 id="1-pandas是什么"><a href="#1-pandas是什么" class="headerlink" title="1.pandas是什么"></a>1.pandas是什么</h2><ul>
+<li><p>Pandas 是 Python 语言的一个扩展程序库，用于数据分析。</p>
+</li>
+<li><p>Pandas 是一个开放源码、BSD 许可的库，提供高性能、易于使用的数据结构和数据分析工具。</p>
+</li>
+<li><p>Pandas 名字衍生自术语 “panel data”（面板数据）和 “Python data analysis”（Python 数据分析）。</p>
+</li>
+<li><p>Pandas 一个强大的分析结构化数据的工具集，基础是 Numpy（提供高性能的矩阵运算）。</p>
+</li>
+<li><p>Pandas 可以从各种文件格式比如 CSV、JSON、SQL、Microsoft Excel 导入数据。</p>
+</li>
+<li><p>Pandas 可以对各种数据进行运算操作，比如归并、再成形、选择，还有数据清洗和数据加工特征。</p>
+</li>
+<li><p>Pandas 广泛应用在学术、金融、统计学等各个数据分析领域。</p>
+</li>
+</ul>
+<h2 id="2-pandas的应用"><a href="#2-pandas的应用" class="headerlink" title="2.pandas的应用"></a>2.pandas的应用</h2><p>Pandas 的主要数据结构是 Series （一维数据）与 DataFrame（二维数据），这两种数据结构足以处理金融、统计、社会科学、工程等领域里的大多数典型用例。</p>
+<h2 id="3-pandas数据结构"><a href="#3-pandas数据结构" class="headerlink" title="3.pandas数据结构"></a>3.pandas数据结构</h2><p>Series 是一种类似于一维数组的对象，它由一组数据（各种Numpy数据类型）以及一组与之相关的数据标签（即索引）组成。</p>
+<p>DataFrame 是一个表格型的数据结构，它含有一组有序的列，每列可以是不同的值类型（数值、字符串、布尔型值）。DataFrame 既有行索引也有列索引，它可以被看做由 Series 组成的字典（共同用一个索引）。</p>
+<h2 id="4-pandas安装"><a href="#4-pandas安装" class="headerlink" title="4.pandas安装"></a>4.pandas安装</h2><blockquote>
+<p>pip install pandas</p>
+</blockquote>
+<h2 id="5-DataFrame"><a href="#5-DataFrame" class="headerlink" title="5.DataFrame"></a>5.DataFrame</h2><p>DataFrame 构造方法如下：</p>
+<blockquote>
+<p>pandas.DataFrame( data, index, columns, dtype, copy)</p>
+</blockquote>
+<ul>
+<li><p>data：一组数据(ndarray、series, map, lists, dict 等类型)。</p>
+</li>
+<li><p>index：索引值，或者可以称为行标签。</p>
+</li>
+<li><p>columns：列标签，默认为 RangeIndex (0, 1, 2, …, n) 。</p>
+</li>
+<li><p>dtype：数据类型。</p>
+</li>
+<li><p>copy：拷贝数据，默认为 False。</p>
+</li>
+</ul>
+<blockquote>
+<p>Pandas DataFrame 是一个二维的数组结构，类似二维数组。</p>
+</blockquote>
+<h3 id="5-1-使用列表创建"><a href="#5-1-使用列表创建" class="headerlink" title="5.1 使用列表创建"></a>5.1 使用列表创建</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">import pandas as pd</span><br><span class="line">data = [[&#x27;HWb&#x27;,22],[&#x27;HJJ&#x27;,22],[&#x27;xxl&#x27;,21]]</span><br><span class="line">df = pd.DataFrame(data,columns=[&#x27;name&#x27;,&#x27;Age&#x27;],dtype=float)</span><br><span class="line">print(df)</span><br><span class="line">  name   Age</span><br><span class="line">0  HWb  22.0</span><br><span class="line">1  HJJ  22.0</span><br><span class="line">2  xxl  21.0</span><br></pre></td></tr></table></figure>
+<h3 id="5-2-使用-ndarrays-创建"><a href="#5-2-使用-ndarrays-创建" class="headerlink" title="5.2 使用 ndarrays 创建"></a>5.2 使用 ndarrays 创建</h3><p>以下实例使用 ndarrays 创建，ndarray 的长度必须相同， 如果传递了 index，则索引的长度应等于数组的长度。如果没有传递索引，则默认情况下，索引将是range(n)，其中n是数组长度。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">import pandas as pd</span><br><span class="line">data = &#123;&#x27;name&#x27;:[&#x27;HWB&#x27;, &#x27;HJJ&#x27;, &#x27;XXL&#x27;], &#x27;Age&#x27;:[22, 18, 21]&#125;</span><br><span class="line">df = pd.DataFrame(data)</span><br><span class="line">print (df)</span><br><span class="line">  name  Age</span><br><span class="line">0  HWB   22</span><br><span class="line">1  HJJ   18</span><br><span class="line">2  XXL   21</span><br></pre></td></tr></table></figure>
+<p>从以上输出结果可以知道， DataFrame 数据类型一个表格，包含 rows（行） 和 columns（列）：</p>
+<img src="/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_3.png" class>
 
-        <div class="article-info info-on-right">
-          
-          
+<h3 id="5-3-使用字典创建"><a href="#5-3-使用字典创建" class="headerlink" title="5.3 使用字典创建"></a>5.3 使用字典创建</h3><p>还可以使用字典（key/value），其中字典的 key 为列名:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">import pandas as pd</span><br><span class="line">data = [&#123;&#x27;a&#x27;: 1, &#x27;b&#x27;: 2&#125;,&#123;&#x27;a&#x27;: 5, &#x27;b&#x27;: 10, &#x27;c&#x27;: 20&#125;]</span><br><span class="line">df = pd.DataFrame(data)</span><br><span class="line">print (df)</span><br><span class="line">   a   b     c</span><br><span class="line">0  1   2   NaN</span><br><span class="line">1  5  10  20.0</span><br><span class="line">没有对应的部分数据为 NaN。</span><br></pre></td></tr></table></figure>
 
+<h2 id="6-DataFrame实例"><a href="#6-DataFrame实例" class="headerlink" title="6.DataFrame实例"></a>6.DataFrame实例</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 创建一个符合正态分布的10个股票5天的涨跌幅数据</span><br><span class="line">import numpy as py  # 导入numpy库缩写为py</span><br><span class="line">import random  # 导入random库</span><br><span class="line">stock_change = py.random.normal(0,1,(10,5))  # 随机生成10行5列平均值为0方差为1的正态分布</span><br><span class="line">stock_change</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">array([[-1.06800116, -0.37443869, -1.23808272, -0.75406374, -0.50755135],</span><br><span class="line">[-0.04029325,  0.30943342, -0.5650164 ,  0.80889311,  1.69124362],</span><br><span class="line">[ 1.34404984,  0.86567577,  0.21049149, -0.62413927, -1.01411892],</span><br><span class="line">[-0.91162311,  1.94650874, -0.76540775, -0.40466176,  1.82564254],</span><br><span class="line">[ 1.1037756 , -1.44806443, -0.22655289, -0.27195686,  0.25442413],</span><br><span class="line">[-0.24138772,  0.09097876,  0.25489516, -0.81538893, -0.23034344],</span><br><span class="line">[ 0.47820904, -0.64306511, -0.73356056,  1.08312939,  0.73778542],</span><br><span class="line">[-1.57577287,  0.13320064,  0.45175379, -0.87767146,  0.5910714 ],</span><br><span class="line">[ 0.33857434, -1.32241751, -1.24833299,  3.38109839, -1.62391399],</span><br><span class="line">[ 0.2793945 ,  1.17221319,  0.05353832, -0.13597506,  0.66324601]]</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import pandas as pd  # 导入pandas库</span><br><span class="line">pd.DataFrame(stock_change)  # 可以把DataFrame理解成有行列索引的adarray</span><br></pre></td></tr></table></figure>
+<img src="/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_1.png" class>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 添加行索引</span><br><span class="line">stock = [&#x27;股票&#123;&#125;&#x27;.format(i) for i in range(10)]</span><br><span class="line">pd.DataFrame(stock_change,index = stock)  #添加行索引index表示</span><br><span class="line">date = pd.date_range(start = &#x27;20210101&#x27;,periods = 5, freq=&#x27;B&#x27;)  # 从20210101开始生成5个日期</span><br><span class="line">data = pd.DataFrame(stock_change, index = stock, columns=date)  #添加列索引 columns表示</span><br><span class="line">data  # shape (10,5)</span><br></pre></td></tr></table></figure>
+<img src="/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_2.png" class>
+
+<h3 id="6-1-DataFrame属性"><a href="#6-1-DataFrame属性" class="headerlink" title="6.1 DataFrame属性"></a>6.1 DataFrame属性</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">data.shape  # 形状</span><br><span class="line">(10, 5)</span><br><span class="line">data.index  # 行索引</span><br><span class="line">Index([&#x27;股票0&#x27;, &#x27;股票1&#x27;, &#x27;股票2&#x27;, &#x27;股票3&#x27;, &#x27;股票4&#x27;, &#x27;股票5&#x27;, &#x27;股票6&#x27;, &#x27;股票7&#x27;, &#x27;股票8&#x27;, &#x27;股票9&#x27;], dtype=&#x27;object&#x27;)</span><br><span class="line">data.columns  # 列索引</span><br><span class="line">DatetimeIndex([&#x27;2021-01-01&#x27;, &#x27;2021-01-04&#x27;, &#x27;2021-01-05&#x27;, &#x27;2021-01-06&#x27;,&#x27;2021-01-07&#x27;],dtype=&#x27;datetime64[ns]&#x27;, freq=&#x27;B&#x27;)</span><br><span class="line">data.values  # 值</span><br><span class="line">data.T  # 转置</span><br><span class="line">data.head(3)  # 取前三行，默认是前五行</span><br><span class="line">data.tail(3)  # 取后三行，默认是后五行</span><br></pre></td></tr></table></figure>
+<h3 id="6-2-修改行列索引"><a href="#6-2-修改行列索引" class="headerlink" title="6.2 修改行列索引"></a>6.2 修改行列索引</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#不能单独修改某一索引，必须修改整体</span><br><span class="line">stock_ = [&#x27;股票_&#123;&#125;&#x27;.format(i) for i in range(10)]  # 整体进行修改</span><br><span class="line">data.index = stock_</span><br><span class="line"># 重设索引</span><br><span class="line">data.reset_index()  # drop值默认为False即不删除原来的行索引</span><br><span class="line">data.reset_index(drop=True)  # 删除原来的行索引</span><br></pre></td></tr></table></figure>
+<img src="/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_4.png" class>
+
+<h2 id="7-Series"><a href="#7-Series" class="headerlink" title="7.Series"></a>7.Series</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"># 带索引的一维数组 只有行索引</span><br><span class="line"># 属性： index ，values</span><br><span class="line">sr = data.iloc[1,:]</span><br><span class="line">2021-01-01   -0.040293</span><br><span class="line">2021-01-04    0.309433</span><br><span class="line">2021-01-05   -0.565016</span><br><span class="line">2021-01-06    0.808893</span><br><span class="line">2021-01-07    1.691244</span><br><span class="line">Freq: B, Name: 股票_1, dtype: float64</span><br><span class="line"># 创建Series指定内容</span><br><span class="line">pd.Series(np.arange(3,9,2),index = [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;])  # 指定索引为a，b，c</span><br><span class="line">a    3</span><br><span class="line">b    5</span><br><span class="line">c    7</span><br><span class="line">dtype: int32</span><br><span class="line"># 利用字典创建Series</span><br><span class="line">pd.Series(&#123;&#x27;red&#x27;:100, &#x27;blue&#x27;:200, &#x27;green&#x27;: 500, &#x27;yellow&#x27;:1000&#125;)</span><br><span class="line">red        100</span><br><span class="line">blue       200</span><br><span class="line">green      500</span><br><span class="line">yellow    1000</span><br><span class="line">dtype: int64</span><br></pre></td></tr></table></figure>
+
+<h2 id="8-基本的数据结构"><a href="#8-基本的数据结构" class="headerlink" title="8.基本的数据结构"></a>8.基本的数据结构</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">data1 = pd.read_csv(&#x27;stock_day.csv&#x27;)  # 导入文件</span><br><span class="line">data1 = data1.drop([&#x27;ma5&#x27;,&#x27;ma10&#x27;,&#x27;ma20&#x27;,&#x27;v_ma5&#x27;,&#x27;v_ma10&#x27;,&#x27;v_ma20&#x27;], axis=1)  # 删除列名为ma5...的数据</span><br></pre></td></tr></table></figure>
+<img src="/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_5.png" class>
+
+<h3 id="8-1-索引操作"><a href="#8-1-索引操作" class="headerlink" title="8.1 索引操作"></a>8.1 索引操作</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"># 直接进行索引（先列后行）</span><br><span class="line">data1[&#x27;open&#x27;][&#x27;2018-02-26&#x27;]</span><br><span class="line">22.8</span><br><span class="line"># 按名字进行索引  loc</span><br><span class="line">data1.loc[&#x27;2018-02-26&#x27;][&#x27;open&#x27;]  # 先行后列</span><br><span class="line">22.8</span><br><span class="line">data1.loc[&#x27;2018-02-26&#x27;,&#x27;open&#x27;]</span><br><span class="line">22.8</span><br><span class="line"># 按数字进行索引  iloc</span><br><span class="line">data1.iloc[1,0]</span><br><span class="line">22.8</span><br><span class="line"># 使用ix组合索引：数字和名字   ix</span><br><span class="line"># 获取行第1天到第4天，[&#x27;open&#x27;, &#x27;close&#x27;, &#x27;high&#x27;, &#x27;low&#x27;]这个四个指标的结果</span><br><span class="line">data1.ix[:4, [&#x27;open&#x27;, &#x27;close&#x27;, &#x27;high&#x27;, &#x27;low&#x27;]]</span><br><span class="line">data1.loc[data1.index[:4],[&#x27;open&#x27;, &#x27;close&#x27;, &#x27;high&#x27;, &#x27;low&#x27;]]  # 全部用名字来索引</span><br><span class="line"></span><br><span class="line">            open	close	high	low</span><br><span class="line">2018-02-27	23.53	24.16	25.88	23.53</span><br><span class="line">2018-02-26	22.80	23.53	23.78	22.80</span><br><span class="line">2018-02-23	22.88	22.82	23.37	22.71</span><br><span class="line">2018-02-22	22.25	22.28	22.76	22.02</span><br></pre></td></tr></table></figure>
+
+<h3 id="8-2-赋值操作"><a href="#8-2-赋值操作" class="headerlink" title="8.2 赋值操作"></a>8.2 赋值操作</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 索引然后赋值</span><br><span class="line">data1.iloc[1,0] = 20</span><br></pre></td></tr></table></figure>
+<h3 id="8-3-排序"><a href="#8-3-排序" class="headerlink" title="8.3 排序"></a>8.3 排序</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 1.对内容排序</span><br><span class="line">data1.sort_values(by=[&#x27;high&#x27;, &#x27;p_change&#x27;],ascending=False)   # 按照high字段进行从大到小进行排序如果相同则再比较P_change  ascending默认为True即从小到大</span><br><span class="line"></span><br><span class="line"># 2.对索引排序</span><br><span class="line">data1.sort_index().head()  # 按行日期进行从小到大排序</span><br></pre></td></tr></table></figure>
+<img src="/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_6.png" class>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 用Series进行排序</span><br><span class="line">sr = data1[&#x27;open&#x27;]</span><br><span class="line">sr.sort_index()  # 对索引排序</span><br><span class="line">sr.sort_values()  # 对内容排序</span><br></pre></td></tr></table></figure>
+<h3 id="8-4-算术运算"><a href="#8-4-算术运算" class="headerlink" title="8.4 算术运算"></a>8.4 算术运算</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">data1[&#x27;open&#x27;] + 3</span><br><span class="line">data1[&#x27;open&#x27;].add(3)  # 一样的效果</span><br><span class="line">data1 + 10  # 对DataFrame统一进行操作,所有数据都加10</span><br></pre></td></tr></table></figure>
+<h3 id="8-5-逻辑运算"><a href="#8-5-逻辑运算" class="headerlink" title="8.5 逻辑运算"></a>8.5 逻辑运算</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># 逻辑运算符 &lt;,&gt;,|,&amp;</span><br><span class="line"># 例如筛选p_change &gt; 2的日期数据</span><br><span class="line">data1[&#x27;p_change&#x27;] &gt; 2</span><br><span class="line"># 完成一个多个逻辑判断， 筛选p_change &gt; 2并且low &gt; 15</span><br><span class="line">(data1[&#x27;p_change&#x27;] &gt; 2) &amp; (data1[&#x27;low&#x27;] &gt; 15)</span><br><span class="line"># 逻辑运算函数</span><br><span class="line">data1.query(&#x27;p_change &gt; 2 &amp; low &gt; 15&#x27;)  # 更方便</span><br><span class="line"># 判断&#x27;turnover&#x27;是否为4.19, 2.39</span><br><span class="line">data1[&#x27;turnover&#x27;].isin([4.19, 2.39])</span><br></pre></td></tr></table></figure>
+
+<h3 id="8-6-统计运算"><a href="#8-6-统计运算" class="headerlink" title="8.6 统计运算"></a>8.6 统计运算</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># max,min,mean,median,var,std</span><br><span class="line">data1.describe()</span><br></pre></td></tr></table></figure>
+<img src="/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_7.png" class>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">data1.max()  # 每列最大值</span><br><span class="line">open                34.99</span><br><span class="line">high                36.35</span><br><span class="line">close               35.21</span><br><span class="line">low                 34.01</span><br><span class="line">volume          501915.41</span><br><span class="line">price_change         3.03</span><br><span class="line">p_change            10.03</span><br><span class="line">turnover            12.56</span><br><span class="line">dtype: float6</span><br><span class="line">data1.mean()  # 平均值</span><br><span class="line">data1.idxmax()  # 最大值所在的行索引</span><br></pre></td></tr></table></figure>
+
+<h3 id="8-7-累计统计函数"><a href="#8-7-累计统计函数" class="headerlink" title="8.7 累计统计函数"></a>8.7 累计统计函数</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># cumsum 累加函数</span><br><span class="line">data1[&#x27;p_change&#x27;].sort_index().cumsum().plot()</span><br></pre></td></tr></table></figure>
+<img src="/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_8.png" class>
+
+<h3 id="8-8-自定义运算"><a href="#8-8-自定义运算" class="headerlink" title="8.8 自定义运算"></a>8.8 自定义运算</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">data1.apply(lambda x:x.max() - x.min())  # 设置最大值—最小值</span><br><span class="line">open                22.74</span><br><span class="line">high                23.68</span><br><span class="line">close               22.85</span><br><span class="line">low                 21.81</span><br><span class="line">volume          500757.29</span><br><span class="line">price_change         6.55</span><br><span class="line">p_change            20.06</span><br><span class="line">turnover            12.52</span><br><span class="line">dtype: float64</span><br></pre></td></tr></table></figure>
+
+<h2 id="9-pandas画图"><a href="#9-pandas画图" class="headerlink" title="9.pandas画图"></a>9.pandas画图</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">data1.plot(x=&#x27;turnover&#x27;, y=&#x27;volume&#x27;,kind=&#x27;scatter&#x27;)  # kind为图像类型</span><br></pre></td></tr></table></figure>
+<img src="/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pandas_9.png" class>
+
+
+<h2 id="10-文件的读取与存储"><a href="#10-文件的读取与存储" class="headerlink" title="10.文件的读取与存储"></a>10.文件的读取与存储</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sa = pd.read_json(&#x27;Sarcasm_Headlines_Dataset.json&#x27;, orient=&#x27;records&#x27;,lines=&#x27;True&#x27;)  # 读取json文件</span><br><span class="line">sa.to_json(&#x27;test.json&#x27;, orient=&#x27;records&#x27;,lines=True)  # json文件的存储</span><br></pre></td></tr></table></figure>
+      
+      <!-- 增加版权声明 -->
+<!- 百度自动推送方式提交 -->
+
+  <script>
+  (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+  })();
+  </script>
+
+<!- 百度自动推送方式提交结束 -->
+
+
+  <div class="declare" hidden="hidden"></div>
+
+
+<!-- 增加版权声明结束 -->
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/pay.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/WeChat.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://huweibo99.github.io/hub.io/2021/09/26/pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/09/25/numpy%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="archive-article-date">
-  	<time datetime="2021-09-25T06:57:47.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-25</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2021/09/25/numpy%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">numpy学习笔记</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/09/25/numpy%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">numpy学习笔记</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#pandas%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"><span class="toc-number">1.</span> <span class="toc-text">pandas学习笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-pandas%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.1.</span> <span class="toc-text">1.pandas是什么</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-pandas%E7%9A%84%E5%BA%94%E7%94%A8"><span class="toc-number">1.2.</span> <span class="toc-text">2.pandas的应用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-pandas%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="toc-number">1.3.</span> <span class="toc-text">3.pandas数据结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-pandas%E5%AE%89%E8%A3%85"><span class="toc-number">1.4.</span> <span class="toc-text">4.pandas安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-DataFrame"><span class="toc-number">1.5.</span> <span class="toc-text">5.DataFrame</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#5-1-%E4%BD%BF%E7%94%A8%E5%88%97%E8%A1%A8%E5%88%9B%E5%BB%BA"><span class="toc-number">1.5.1.</span> <span class="toc-text">5.1 使用列表创建</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-2-%E4%BD%BF%E7%94%A8-ndarrays-%E5%88%9B%E5%BB%BA"><span class="toc-number">1.5.2.</span> <span class="toc-text">5.2 使用 ndarrays 创建</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-3-%E4%BD%BF%E7%94%A8%E5%AD%97%E5%85%B8%E5%88%9B%E5%BB%BA"><span class="toc-number">1.5.3.</span> <span class="toc-text">5.3 使用字典创建</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-DataFrame%E5%AE%9E%E4%BE%8B"><span class="toc-number">1.6.</span> <span class="toc-text">6.DataFrame实例</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#6-1-DataFrame%E5%B1%9E%E6%80%A7"><span class="toc-number">1.6.1.</span> <span class="toc-text">6.1 DataFrame属性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-2-%E4%BF%AE%E6%94%B9%E8%A1%8C%E5%88%97%E7%B4%A2%E5%BC%95"><span class="toc-number">1.6.2.</span> <span class="toc-text">6.2 修改行列索引</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-Series"><span class="toc-number">1.7.</span> <span class="toc-text">7.Series</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-%E5%9F%BA%E6%9C%AC%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="toc-number">1.8.</span> <span class="toc-text">8.基本的数据结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#8-1-%E7%B4%A2%E5%BC%95%E6%93%8D%E4%BD%9C"><span class="toc-number">1.8.1.</span> <span class="toc-text">8.1 索引操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-2-%E8%B5%8B%E5%80%BC%E6%93%8D%E4%BD%9C"><span class="toc-number">1.8.2.</span> <span class="toc-text">8.2 赋值操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-3-%E6%8E%92%E5%BA%8F"><span class="toc-number">1.8.3.</span> <span class="toc-text">8.3 排序</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-4-%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97"><span class="toc-number">1.8.4.</span> <span class="toc-text">8.4 算术运算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-5-%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97"><span class="toc-number">1.8.5.</span> <span class="toc-text">8.5 逻辑运算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-6-%E7%BB%9F%E8%AE%A1%E8%BF%90%E7%AE%97"><span class="toc-number">1.8.6.</span> <span class="toc-text">8.6 统计运算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-7-%E7%B4%AF%E8%AE%A1%E7%BB%9F%E8%AE%A1%E5%87%BD%E6%95%B0"><span class="toc-number">1.8.7.</span> <span class="toc-text">8.7 累计统计函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-8-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%BF%90%E7%AE%97"><span class="toc-number">1.8.8.</span> <span class="toc-text">8.8 自定义运算</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9-pandas%E7%94%BB%E5%9B%BE"><span class="toc-number">1.9.</span> <span class="toc-text">9.pandas画图</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10-%E6%96%87%E4%BB%B6%E7%9A%84%E8%AF%BB%E5%8F%96%E4%B8%8E%E5%AD%98%E5%82%A8"><span class="toc-number">1.10.</span> <span class="toc-text">10.文件的读取与存储</span></a></li></ol></li></ol>
+                    </div>
+                </span>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+        
+    </div>
+</aside>
+
+
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/09/24/matplotlib%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="archive-article-date">
-  	<time datetime="2021-09-24T06:48:18.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-24</time>
-</a>
-        </div>
-    	 
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/09/24/matplotlib%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">matplotlib学习笔记</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/09/17/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/" class="archive-article-date">
-  	<time datetime="2021-09-17T15:03:10.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-17</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/09/17/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/">论文写作</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/09/16/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E5%92%8C%E4%BC%98%E5%8C%96%E4%B8%BB%E9%A2%98%E5%BF%83%E5%BE%97/" class="archive-article-date">
-  	<time datetime="2021-09-16T08:58:44.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-16</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/09/16/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E5%92%8C%E4%BC%98%E5%8C%96%E4%B8%BB%E9%A2%98%E5%BF%83%E5%BE%97/">搭建hexo博客和优化主题心得</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/09/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" class="archive-article-date">
-  	<time datetime="2021-09-16T00:12:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-16</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/09/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">我的第一篇博客文章</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/09/15/hello-world/" class="archive-article-date">
-  	<time datetime="2021-09-15T08:09:49.029Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-15</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/09/15/hello-world/">Hello World</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -409,8 +508,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
